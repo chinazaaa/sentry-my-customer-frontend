@@ -20,7 +20,8 @@
     <link href="{{asset('backend/assets/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css">
     <link href="{{asset('backend/assets/css/icons.min.css')}}" rel="stylesheet" type="text/css">
     <link href="{{asset('backend/assets/css/app.min.css')}}" rel="stylesheet" type="text/css">
-
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shepherd/2.0.0-beta.1/css/shepherd-theme-arrows.css" />
+    <link href="{{asset('backend/assets/css/tourguide.css')}}" rel="stylesheet" type="text/css">
 
 
     <!-- Other Style CSS -->
@@ -67,10 +68,11 @@
 
    <!-- page js -->
    <script src="/backend/assets/js/pages/dashboard.init.js"></script>
-
+    <script src="/backend/assets/js/pages/popper.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/shepherd/2.0.0-beta.1/js/shepherd.js"></script>
    <!-- App js -->
    <script src="/backend/assets/js/app.min.js"></script>
-
+   <script src="/backend/assets/js/tourguide.js"></script>
 
 
     @yield('javascript')
